@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calendar {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.days {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dates div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
